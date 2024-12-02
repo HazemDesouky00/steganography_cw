@@ -6,9 +6,7 @@
 
 
 
-# if not is_strong_password(password):
-  #  print("Password must be at least 8 characters long, and include upper and lower case letters, digits, and special characters.")
-   # password = input("Set a password: ")
+
 
 def to_binary(data):  # Converts a string to its binary representation
     return ''.join(format(ord(char), '08b') for char in data)
